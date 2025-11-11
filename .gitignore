@@ -1,0 +1,137 @@
+# =========================
+# OS / Editors
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+.poetry/
+.pytest_cache/
+coverage/
+htmlcov/
+
+# =========================
+# Notebooks
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+.notebooks_backup/
+notebook_outputs/
+
+# =========================
+# Data files
+# (Keep only tiny samples or README)
+# =========================
+data/
+!data/README.md
+!data/sample/
+!data/sample/**
+
+datasets/
+.cache/
+cache/
+tmp/
+temp/
+outputs/
+artifacts/
+results/
+figures/
+reports/
+
+# Common raw/processed files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.hdf
+*.h5
+*.arrow
+*.orc
+*.avro
+*.jsonl
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.bz2
+*.xz
+
+# =========================
+# Models & ML artifacts
+# =========================
+models/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.joblib
+*.pkl
+*.h5
+*.tflite
+*.pb
+
+# =========================
+# Experiment logs
+# =========================
+logs/
+tensorboard/
+mlruns/
+wandb/
+.wandb/
+huggingface/
+.huggingface/
+lightning_logs/
+experiments/
+
+# =========================
+# Environment & secrets
+# =========================
+.env
+.env.*
+*.secret
+*.key
+*.pem
+secrets/
+credentials/
+config/local.*
+*.credentials
+
+# =========================
+# Containers / Dev
+# =========================
+docker-data/
+volumes/
+*.pid
+
+# =========================
+# Misc
+# =========================
+*.lock
+*.bak
+*.orig
