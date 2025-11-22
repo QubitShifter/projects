@@ -1,5 +1,5 @@
-merge `earthquake.usgs_earthquake.raw_events` as t
-using `earthquake.usgs_earthquake.raw_events_staging` as s
+merge `earthquake-478811.usgs_earthquake.raw_events` as t
+using `earthquake-478811.usgs_earthquake.raw_events_staging` as s
 on t.id = s.id
 when matched and (
     t.updated is null

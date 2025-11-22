@@ -15,7 +15,7 @@ def load_staging_and_merge(project_id, dataset, rows):
     job = client.load_table_from_json(
         rows,
         staging,
-        job_config=bigquery.LoadJobConfig(write_disposition="write append"),
+        job_config=bigquery.LoadJobConfig(write_disposition="WRITE_APPEND"),
     )
     job.result()
     print(f"loaded {len(rows)} rows into {staging}")

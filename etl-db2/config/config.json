@@ -1,7 +1,7 @@
 {
-  "pg_host": "localhost",
-  "pg_port": 5432,
-  "pg_dbname": "etl_process",
-  "pg_user": "postgres",
-  "pg_password": "admin_Postgres"
+  "pg_host": "${pg_host}",
+  "pg_port": "${pg_port}",
+  "pg_dbname": "${pg_dbname}",
+  "pg_user": "${pg_user}",
+  "pg_password": "${pg_password}"
 }

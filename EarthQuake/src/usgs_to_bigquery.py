@@ -7,7 +7,7 @@ from bigquery_io import load_staging_and_merge, refresh_model
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--project_id", default=os.getenv("PROJECT_ID", "earthquake"))
+    parser.add_argument("--project_id", default=os.getenv("project_id", "earthquake"))
     parser.add_argument("--dataset", default="usgs_earthquake")
     parser.add_argument("--start-date", required=True)
     parser.add_argument("--end-date", required=True)
@@ -23,7 +23,7 @@ def parse_args():
 def main():
     args = parse_args()
 
-    print(" USGS - BigQuery ETL")
+    print(" [USGS] - [BigQuery] ETL")
     print(f"Project: {args.project_id}, Dataset: {args.dataset}")
     print(f"Date range: {args.start_date} to {args.end_date}")
     print(f"Min magnitude: {args.min_magnitude}")

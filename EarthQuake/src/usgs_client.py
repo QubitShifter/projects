@@ -14,12 +14,12 @@ def ms_to_ts(ms):
 
 
 def flatten_feature(f):
-    props = f.get("properties", {}) or {}
+    properties = f.get("properties", {}) or {}
     geom = f.get("geometry", {}) or {}
-    coords = geom.get("coordinates") or [None, None, None]
+    coordinates = geom.get("coordinates") or [None, None, None]
 
-    event_time = ms_to_ts(props.get("time"))
-    updated = ms_to_ts(props.get("updated"))   
+    event_time = ms_to_ts(properties.get("time"))
+    updated = ms_to_ts(properties.get("updated"))   
 
     event_date = None
     if event_time:
@@ -31,14 +31,14 @@ def flatten_feature(f):
         "event_time": event_time,
         "updated": updated,         
         "event_date": event_date,
-        "magnitude": props.get("mag"),
-        "depth_km": coords[2],
-        "latitude": coords[1],
-        "longitude": coords[0],
-        "place": props.get("place"),
-        "type": props.get("type"),
-        "status": props.get("status"),
-        "mmi": props.get("mmi"),
+        "magnitude": properties.get("mag"),
+        "depth_km": coordinates[2],
+        "latitude": coordinates[1],
+        "longitude": coordinates[0],
+        "place": properties.get("place"),
+        "type": properties.get("type"),
+        "status": properties.get("status"),
+        "mmi": properties.get("mmi"),
     }
 
 

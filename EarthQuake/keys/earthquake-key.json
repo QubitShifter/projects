@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "earthquake-478811",
+  "private_key_id": "59f0bce55f831bb8484d7b7ef6885b55f406384b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCb/qvskzBcA+7j\nUHeAjbT1LYxCLrDBZ3q2q0KuAt9XbftI5j7HRv3uGFUwHoCEFcf7/cVID3fz1m5y\n+KcfL4S2xSajvG9mVHyGO4HcRDCv10djuRiJRZ8YGHpkMDQwlu7GXixAJ52XihVi\nPhYe13f13aLi/2AMGfDnetJTzJN3UgHuk5C2d9zpYrz7OUYJqCOGncoUskanu0oG\n7KZPShm3yhAPcEhRo73+8kzr4DzCccrqX5nD3PA7EncaGiNpZsRSNMoxgvV+IQsN\nsJHrw/R3lQ1Kg5ZkCwkvNGz+vb13hTXWrc+oHTmJQMe6ge5umyYaoXFKoQX4FD0T\nqv+IYsWFAgMBAAECggEAGkWmc+YIL38UFSGgtrxm/SHqLN1LNI92edxXExJ1xfZG\na20npo08yAQ+GKgScexvLW/8cVn1lFIJcQCSuOxaWCPVEZ9zTZMuE7di9BNh9cN2\niQOL79aTaE37EvORXpuU5EDJCBcD8hk158FYHWKhl/13aO6koPUffwTO9oEOVvpr\nw57fZJxrjb4i408/8EX/d77T1ZZJKfc/tpPwBGcRGgjC5sBXfgAzU2Y/pPg1kg6Y\nMl/hYvgVn3a7YPGhoCQZzZN7I7iLhnK0a3i3ylTGKhXisVmpFD5edDTDi7WnBsQk\nvtwcg4F0zxajzwr8Gu5+jG01VC+WKog5rpYsqH9RgQKBgQDYphRVa8UH67qFroXy\nsnrN/yQab3Ue8bVtKUaPg+bc7AtmFxII488Yd2GP33/AHPCNjzsltYZ1V+NnY5yh\nldle9im3iXxbE0tD7iXAvG81x+8VkDPYyqiFLM+o2U9TC/8tmkmXqTJ+1VnVSmA5\n/qQOZ6LBoXmJETxNFFmseTOiRQKBgQC4VEDFUVAmmA2I05pr4P7KWZpgL5wF4JLd\nTIXHL5sBrEM3mhp+UoEJmKVSYyLcRI0wq3jKgJQvQ23liu6t0YSDmZe21u5BeEU8\n7mo2XbeD4cHOItZM3l0tMZlo8wnap/Bo3FCoZq+f48xYpfIbpq0+kteuG/b+Ttis\nun5rOR5qQQKBgGcplk8itTzTVAsqEqCBupZy4tcvsb6dbD3hxLa8IWebgsYHQFA5\nYjkNR8jBrUxmu2k9BfYr3S3tPtzRgxkyiMJ+R1kdP7kCk/lx4kpHsFEUtlU3SGj3\n/40CzJNjfzFVahpl+JseN2xL3a4B75ZOGgK9+LNpV70cFvHBOf417I9dAoGAGFZf\neu4ChCX9W3x83hOF8JemD18Z3ZjKK1foLeV2NOFWuqepKdag3PB/m4IlXynZ7nwl\nZa9WYWsovm76lo6cTXfhFS4JpTFJCwN7mJQFH++V1C67VsjhSo9K7xVvzqPv1RiJ\nucJdG+JK38WBUu9N3n4q5f0hPnCQoTW6bVPMVUECgYEAnAeZAd2BvCuhyI1o+cvn\n8i29RINbc2XZUEzWOziFaVkyXb93iBujGNpj9Dd0T7QwkNp6oWcJGzl8NZkZd1Mx\n9oizpek+AaeLf09/EfhqElB08ut0PtPbkgMouG03uyJaBUqVaUSWk/gXKVO0RPPw\nlTB4ge5v7sKRNMgSSPYnPI4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "earthquake-etl@earthquake-478811.iam.gserviceaccount.com",
+  "client_id": "108206677368932328333",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/earthquake-etl%40earthquake-478811.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
