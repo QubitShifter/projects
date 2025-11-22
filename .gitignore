@@ -122,7 +122,7 @@ credentials/
 config/local.*
 *.credentials
 
-EarthQuake/keys/
+EarthQuake/keys/earthquake-key.json
 
 # =========================
 # Containers / Dev
