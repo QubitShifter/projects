@@ -122,6 +122,8 @@ credentials/
 config/local.*
 *.credentials
 
+EarthQuake/keys/
+
 # =========================
 # Containers / Dev
 # =========================
