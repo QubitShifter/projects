@@ -16,3 +16,14 @@ def create_table_if_not_exists(conn) -> None:
         cur.execute(create_sql)
         conn.commit()
         print("Table etl_sales is ready.")
+
+def get_max_order_id(conn) -> int | None:
+    """
+        this will return max order_id from etl_sales. If table is empty it will retur None
+    """
+
+    sql = "select max(order_id) from etl_sales;"
+    with conn.cursor() as cur:
+        cur.execute(sql)
+        (max_id,) = cur.fetchone()
+    return max_id
