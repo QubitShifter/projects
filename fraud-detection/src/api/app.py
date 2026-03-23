@@ -31,8 +31,8 @@ def predict(transaction: dict):
     #step 3: Decision
     return {
         "decision": result["decision"],
-        "ml_score": round(ml_score, 3),
-        "risk_score": result["risk_score"],
+        "ml_score": float(round(ml_score, 3)),
+        "risk_score": float(result["risk_score"]),
         "rules_triggered": rules,
         "top_features": top_features,
         "reason": reason
