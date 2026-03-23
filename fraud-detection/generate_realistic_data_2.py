@@ -19,7 +19,7 @@ for _ in range(n):
     transactions_last_1min = np.random.randint(0, 20)
     
     #advanced features
-    velocity_ration = transactions_last_1min / (frequency + 1)
+    velocity_ratio = transactions_last_1min / (frequency + 1)
     rapid_repeat = 1 if time_since_last_tx < 100 else 0
 
     avg_amount_7d = np.random.normal(120, 50)
@@ -38,7 +38,7 @@ for _ in range(n):
     if transactions_last_1min > 8:
         fraud_signal += 1
 
-    if velocity_ration > 1.5:
+    if velocity_ratio > 1.5:
         fraud_signal += 1
 
     if amount_deviation > 3:
@@ -74,7 +74,7 @@ for _ in range(n):
         new_device,
         country_change,
         transactions_last_1min,
-        velocity_ration,
+        velocity_ratio,
         rapid_repeat,
         amount_deviation,
         device_trusted,
@@ -89,7 +89,7 @@ df = pd.DataFrame(data, columns=[
     "new_device",
     "country_change",
     "transactions_last_1min",
-    "velocity_ration",
+    "velocity_ratio",
     "rapid_repeat",
     "amount_deviation",
     "device_trusted",
